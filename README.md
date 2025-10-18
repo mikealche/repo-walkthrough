@@ -40,6 +40,10 @@ Or if running locally:
 ./git-walkthrough.sh
 ```
 
+
+https://github.com/user-attachments/assets/4bcca9e6-835a-4ee0-8824-e5726893cfd7
+
+
 ## Controls
 
 - **→ (Right Arrow)**: Move to the next commit (or show diff if diff mode is on)
