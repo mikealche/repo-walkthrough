@@ -1,21 +1,44 @@
-# Git Repository Walkthrough Utility
+# Git Repository Walkthrough
 
-A shell script that allows you to interactively navigate through git commits and view diffs between commits.
+[![npm version](https://badge.fury.io/js/git-walkthrough.svg)](https://www.npmjs.com/package/git-walkthrough)
+
+An interactive shell utility to navigate through git commits and view diffs between them. Perfect for understanding repository history, reviewing changes, or exploring unfamiliar codebases.
 
 ## Features
 
 - **Interactive Navigation**: Navigate through commits using arrow keys
 - **Diff Viewing**: View changes between commits as uncommitted files in VS Code
+- **Toggle Diff Mode**: Switch between viewing commits and viewing diffs
 - **State Preservation**: Automatically restores your original git state when exiting
 - **Visual Feedback**: Color-coded output for better user experience
 
+## Installation
+
+Install globally via npm:
+
+```bash
+npm install -g git-walkthrough
+```
+
+Or use with npx (no installation required):
+
+```bash
+npx git-walkthrough
+```
+
 ## Usage
 
-1. Navigate to a directory containing a git repository
-2. Run the script:
-   ```bash
-   ./git-walkthrough.sh
-   ```
+Navigate to a directory containing a git repository and run:
+
+```bash
+git-walkthrough
+```
+
+Or if running locally:
+
+```bash
+./git-walkthrough.sh
+```
 
 ## Controls
 

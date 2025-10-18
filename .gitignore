@@ -1,0 +1,8 @@
+node_modules/
+test-repo/
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+

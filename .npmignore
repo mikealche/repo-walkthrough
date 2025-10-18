@@ -1,0 +1,7 @@
+test-repo/
+.git/
+.DS_Store
+*.swp
+*.swo
+*~
+

@@ -1,0 +1,41 @@
+{
+    "name": "git-walkthrough",
+    "version": "1.0.0",
+    "description": "Interactive shell utility to navigate through git commits and view diffs",
+    "main": "git-walkthrough.sh",
+    "bin": {
+        "git-walkthrough": "./git-walkthrough.sh"
+    },
+    "scripts": {
+        "postinstall": "chmod +x git-walkthrough.sh",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "git",
+        "commit",
+        "history",
+        "diff",
+        "navigation",
+        "interactive",
+        "cli",
+        "terminal"
+    ],
+    "author": "mikealche",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mikealche/repo-walkthrough.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mikealche/repo-walkthrough/issues"
+    },
+    "homepage": "https://github.com/mikealche/repo-walkthrough#readme",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "files": [
+        "git-walkthrough.sh",
+        "README.md",
+        "LICENSE"
+    ]
+}
