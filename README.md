@@ -1,5 +1,9 @@
 # Git Repository Walkthrough
 
+
+https://github.com/user-attachments/assets/f792317e-dcb6-443c-99ff-8ef7eb7b85ca
+
+
 [![npm version](https://badge.fury.io/js/git-walkthrough.svg)](https://www.npmjs.com/package/git-walkthrough)
 
 An interactive shell utility to navigate through git commits and view diffs between them. Perfect for understanding repository history, reviewing changes, or exploring unfamiliar codebases.
@@ -39,9 +43,6 @@ Or if running locally:
 ```bash
 ./git-walkthrough.sh
 ```
-
-
-https://github.com/user-attachments/assets/4bcca9e6-835a-4ee0-8824-e5726893cfd7
 
 
 ## Controls
